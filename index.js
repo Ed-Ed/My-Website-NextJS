@@ -1,12 +1,11 @@
-const functions = require("firebase-functions");
 const next = require("next");
 
 const app = next({
   dev: false,
-  conf: { distDir: "./next" },
+  conf: { distDir: "./dist" },
 });
 const handle = app.getRequestHandler();
 
-exports.next = functions.https.onRequest((req, res) => {
+exports.app = (req, res) => {
   return app.prepare().then(() => handle(req, res));
-});
+};
