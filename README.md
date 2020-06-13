@@ -1,6 +1,6 @@
-# [My-Website-NextJS](www.eded.uk)
+# [My-Website-NextJS](https://www.eded.uk)
 
-My portfolio website, simplified, built in Typescript using NextJS. Hosted on [Google App Engine](www.gstared.com) and [Vercel](www.eded.uk).
+My portfolio website, simplified, built in Typescript using NextJS. Hosted on [Google App Engine](https://www.gstared.com) and [Vercel](https://www.eded.uk).
 
 ## Instructions
 
