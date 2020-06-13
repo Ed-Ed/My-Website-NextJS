@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "gcloud:test": "node index.js",
-    "gcloud:deploy": "gcloud functions deploy my-website-nextjs --entry-point=app --runtime=nodejs10 --memory=256MB --timeout=30s --region=europe-west2 --trigger-http",
-    "gcloud:logs": "gcloud logging read"
+    "start": "next start -p 8080",
+    "gcloud:deploy": "gcloud app deploy",
+    "gcloud:dispatch": "gcloud app deploy dispatch.yaml"
   },
   "dependencies": {
     "next": "9.4.0",
