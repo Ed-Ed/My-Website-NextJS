@@ -1,10 +1,6 @@
-# [My-Website-NextJS](www.gstared.com)
+# [My-Website-NextJS](www.eded.uk)
 
-My portfolio website, simplified, built in TypeScript using NextJS. Hosted on Google App Engine.
-
-## Purpose
-
-NextJS is better in pretty much every way, except it's slower. This project is purely for me to monitor the updates.
+My portfolio website, simplified, built in Typescript using NextJS. Hosted on [Google App Engine](www.gstared.com) and [Vercel](www.eded.uk).
 
 ## Instructions
 
