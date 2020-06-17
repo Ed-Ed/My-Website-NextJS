@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 8080",
-    "gcloud:deploy": "gcloud app deploy",
+    "gcloud:deploy": "next build && gcloud app deploy",
     "gcloud:dispatch": "gcloud app deploy dispatch.yaml"
   },
   "dependencies": {
