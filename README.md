@@ -1,6 +1,6 @@
 # [My-Website-NextJS](https://www.gstared.com)
 
-My portfolio website, simplified, built in TypeScript using NextJS. Hosted on [Google App Engine](https://www.gstared.com). Used for testing speed differences.
+My portfolio website, simplified, built in TypeScript using NextJS. Hosted on Google App Engine. Used for testing speed differences.
 
 ## Instructions
 
