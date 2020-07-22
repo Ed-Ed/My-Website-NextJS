@@ -1,13 +1,12 @@
 {
   "name": "my-website-nextjs",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 8080",
-    "gcloud:deploy": "next build && gcloud app deploy",
-    "gcloud:dispatch": "gcloud app deploy dispatch.yaml"
+    "deploy": "next build && gcloud app deploy",
+    "dispatch": "gcloud app deploy dispatch.yaml"
   },
   "dependencies": {
     "next": "9.4.0",
